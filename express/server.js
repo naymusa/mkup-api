@@ -33,7 +33,7 @@ router.get("/productos", (req, res) => res.send(productos));
 
 app.use(cors());
 app.use(bodyParser.json());
-app.use("/.netlify/functions/catalogoApi", router); // path must route to lambda
+app.use("/.netlify/functions/server/catalogoApi", router); // path must route to lambda
 
 
 // //Agregas el enlace del archivo JSON. Puedes visualizar la infon con GET o CONSOLE.LOG
