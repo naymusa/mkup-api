@@ -99,6 +99,102 @@
         "__v": 0,
         "image":
           "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/214/746/products/deb90012-4e93-4d6f-a9aa-4aa83734934f_nube-14af3bf17c9a1ed2ef16062311625261-1024-1024.jpg"
-        }
+        },
+        {
+          "isActive": false,
+          "_id": "Sunset-palette-nat",
+          "product_name": "Sunset Palette",
+          "description":
+            "Paleta altamente pigmentda con dos colores mate y 3 glitter hace un most para tu cosmetiquera.",
+          "price": 214,
+          "category": "Ojos",
+          "brand": "Natasha Denona",
+          "sku": "Sunset-palette-nat",
+          "createdAt": "2020-11-23T20:20:54.246Z",
+          "updatedAt": "2020-11-23T20:20:54.246Z",
+          "__v": 0,
+          "image":
+            "https://bellezaenlinea.com.mx/storage/2020/August/week4/105007_sunset.jpg"
+          },
+          {
+            "isActive": false,
+            "_id": "bloom-blush-glow-palette-nat",
+            "product_name": "Bloom blush & glow palette",
+            "description":
+              "Esta paleta tiene 2 colores preciosos que puede quedarle a cualquier tono de piel que tengas, puedes combinarlos para un día de verano o invierno. y ni hablar del iluminador que trae, ¡está que te mueres!",
+            "price": 1890,
+            "category": "Maquillaje",
+            "brand": "Natasha Denona",
+            "sku": "bloom-blush-glow-palette-nat",
+            "createdAt": "2020-11-23T20:20:54.246Z",
+            "updatedAt": "2020-11-23T20:20:54.246Z",
+            "__v": 0,
+            "image":
+              "https://cdn.shopify.com/s/files/1/0013/2956/1674/products/nat000_natashadenona_bloompalette_1560x1960-7asob_1000x1000.jpg?v=1569203288"
+            },
+            {
+              "isActive": false,
+              "_id": "19-brush-collection",
+              "product_name": "Brush Collection",
+              "description":
+                "Este kit de 19 brochas tiene de todo. Tiene 7 brochas para ojos, 9 brochas para tu bello rostro y 2 para darle forma a tu ceja. La calidad es buenísima, tiene cerdas sintéticas y naturales las cuales podrás guardar muy bien en su estuche cuando salgas de viaje. Ya sabes, antes muerta que sencilla.",
+              "price": 1549,
+              "category": "Brochas",
+              "brand": "e.l.f. Cosmetics",
+              "sku": "19-brush-collection",
+              "createdAt": "2020-11-23T20:20:54.246Z",
+              "updatedAt": "2020-11-23T20:20:54.246Z",
+              "__v": 0,
+              "image":
+                "https://maatbeauty.com/wp-content/uploads/2021/05/2512228.jpg"
+              },
+              {
+                "isActive": true,
+                "_id": "the-healthy-foundation-pf",
+                "product_name": "The healthy foundation",
+                "description":
+                  "Esta es la base que vas a amar de verdad. Tiene un SPF / FPS de 20 para proteger a tu carita de los rayos de sol. Esta base es idea para pieles secas que buscan un glow natural. Traemos de varios colores para que puedas escoger el que más te guste.",
+                "price": 169,
+                "category": "Maquillaje",
+                "brand": "Physicians formula",
+                "sku": "the-healthy-foundation-pf",
+                "createdAt": "2020-11-23T20:20:54.246Z",
+                "updatedAt": "2020-11-23T20:20:54.246Z",
+                "__v": 0,
+                "image":
+                  "https://www.sanborns.com.mx/imagenes-sanborns-ii/1200/44386100367.jpg"
+                },
+                {
+                  "isActive": true,
+                  "_id": "maybelline-lash-sensational",
+                  "product_name": "The healthy foundation",
+                  "description":
+                    "Una gran máscara de pestañas que no te fallará en todo el día. su cepillo sintetico separa cada pestaña y su fórmula las alarga.",
+                  "price": 169,
+                  "category": "Ojos",
+                  "brand": "Maybelline",
+                  "sku": "maybelline-lash-sensational",
+                  "createdAt": "2020-11-23T20:20:54.246Z",
+                  "updatedAt": "2020-11-23T20:20:54.246Z",
+                  "__v": 0,
+                  "image":
+                    "https://cdn.webshopapp.com/shops/125574/files/325121797/maybelline-maybelline-lash-sensational-mascara.jpg"
+                  },
+                  {
+                    "isActive": true,
+                    "_id": "maybelline-primer-baby-skin",
+                    "product_name": "Baby skin - primer",
+                    "description":
+                      "Este primer promete desaparecer a la vista tus poros al momento de maquillarte, es para pieles mixtas a normales y su textura es en gel dejando un acabado mate.",
+                    "price": 299,
+                    "category": "Ojos",
+                    "brand": "Maybelline",
+                    "sku": "maybelline-primer-baby-skin",
+                    "createdAt": "2020-11-23T20:20:54.246Z",
+                    "updatedAt": "2020-11-23T20:20:54.246Z",
+                    "__v": 0,
+                    "image":
+                      "https://media.naheed.pk/catalog/product/cache/49dcd5d85f0fa4d590e132d0368d8132/b/a/baby-primer-1.jpg"
+                    }
     ]
 }
