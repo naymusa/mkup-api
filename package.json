@@ -1,19 +1,32 @@
 {
   "name": "mkup-api",
   "version": "1.0.0",
-  "description": "catalogo",
+  "description": "catalogo para ecommerce de maquillaje",
   "main": "index.js",
   "scripts": {
+    "build": "netlify-lambda build express",
     "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naymusa/mkup-api.git"
   },
   "author": "nay musa",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naymusa/mkup-api.git/issues"
+  },
+  "homepage": "https://github.com/naymusa/mkup-api.git#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.9"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "netlify-lambda": "^2.0.11",
+    "nodemon": "^2.0.12",
+    "serverless-http": "^2.7.0"
   }
 }
