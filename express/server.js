@@ -34,6 +34,7 @@ router.get("/productos", (req, res) => res.send(productos));
 app.use(cors());
 app.use(bodyParser.json());
 app.use("/.netlify/functions/server/catalogoApi", router); // path must route to lambda
+//si quieres cambiar el nombre "server" lo podrás realizar siempre y cuando el nombre de este archivo se llame igual
 
 
 // //Agregas el enlace del archivo JSON. Puedes visualizar la infon con GET o CONSOLE.LOG
