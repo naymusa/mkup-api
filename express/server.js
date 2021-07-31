@@ -39,34 +39,34 @@ app.use("/.netlify/functions/catalogoApi", router); // path must route to lambda
 // //Agregas el enlace del archivo JSON. Puedes visualizar la infon con GET o CONSOLE.LOG
 // const makeupJson = require("../api-mkup.json");
 
-app.get("/makeupS", (req, resp) => {
-  resp.json(productos.makeup[0].product_name);
-});
+// app.get("/makeupS", (req, resp) => {
+//   resp.json(productos.makeup[0].product_name);
+// });
 
 
-//ruta del servicio
-app.get("/catalogo", (req, response) => {
-  response.send(productos);
-});
+// //ruta del servicio
+// app.get("/catalogo", (req, response) => {
+//   response.send(productos);
+// });
 
-app.get('/catalogo/:id', function (req, res) {
-    const item = productos.makeup.find( (producto) => {
-        return (producto._id === req.params.id)
-    })
-    res.json(item)
-  });
+// app.get('/catalogo/:id', function (req, res) {
+//     const item = productos.makeup.find( (producto) => {
+//         return (producto._id === req.params.id)
+//     })
+//     res.json(item)
+//   });
 
-app.get("/maquillaje", (req, response) => {
-    response.send(maquillaje, maquillaje2);
-  });
+// app.get("/maquillaje", (req, response) => {
+//     response.send(maquillaje, maquillaje2);
+//   });
 
-app.get("/brochas", (req, response) => {
-  response.send(brochas, brochas2);
-});
+// app.get("/brochas", (req, response) => {
+//   response.send(brochas, brochas2);
+// });
 
-app.get("/pestañas", (req, response) => {
-  response.send(pestanas, pestanas2);
-});
+// app.get("/pestañas", (req, response) => {
+//   response.send(pestanas, pestanas2);
+// });
 
 
 // PASO 5: exportarmos la aplicacion
