@@ -41,7 +41,7 @@ app.use("/.netlify/functions/server/catalogoApi", router); // path must route to
 // const makeupJson = require("../api-mkup.json");
 
 app.get("/makeupS", (req, resp) => {
-  resp.json(productos.makeup[0].product_name);
+  resp.json(productos[0].product_name);
 });
 
 
@@ -51,23 +51,19 @@ app.get("/catalogo", (req, response) => {
 });
 
 app.get('/catalogo/:id', function (req, res) {
-    const item = productos.makeup.find( (producto) => {
+    const item = productos.find( (producto) => {
         return (producto._id === req.params.id)
     })
     res.json(item)
   });
 
-app.get("/maquillaje", (req, response) => {
-    response.send(maquillaje, maquillaje2);
+  // categorias 
+  app.get('/catalogo/:category', function (req, res) {
+    const item = productos.find( (producto) => {
+        return (producto.category === req.params.category)
+    })
+    res.json(item)
   });
-
-app.get("/brochas", (req, response) => {
-  response.send(brochas, brochas2);
-});
-
-app.get("/pestañas", (req, response) => {
-  response.send(pestanas, pestanas2);
-});
 
 
 // PASO 5: exportarmos la aplicacion
