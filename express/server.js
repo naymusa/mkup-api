@@ -40,17 +40,17 @@ app.use("/.netlify/functions/server/catalogoApi", router); // path must route to
 // //Agregas el enlace del archivo JSON. Puedes visualizar la infon con GET o CONSOLE.LOG
 // const makeupJson = require("../api-mkup.json");
 
-app.get("/makeupS", (req, resp) => {
+router.get("/makeupS", (req, resp) => {
   resp.json(productos[0].product_name);
 });
 
 
 //ruta del servicio
-app.get("/catalogo", (req, response) => {
+router.get("/catalogo", (req, response) => {
   response.send(productos);
 });
 
-app.get('/catalogo/:id', function (req, res) {
+router.get('/catalogo/:id', function (req, res) {
     const item = productos.find( (producto) => {
         return (producto._id === req.params.id)
     })
@@ -58,7 +58,7 @@ app.get('/catalogo/:id', function (req, res) {
   });
 
   // categorias 
-  app.get('/catalogo/:category', function (req, res) {
+  router.get('/catalogo/:category', function (req, res) {
     const item = productos.find( (producto) => {
         return (producto.category === req.params.category)
     })
