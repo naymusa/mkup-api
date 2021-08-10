@@ -52,20 +52,20 @@
     },
     {
         "isActive": true,
-        "_id": "elf-velvet",
+        "_id": "corrector-la-girl",
         "product_name": "Base Elf",
-        "modelo": "Color medio",
+        "modelo": "Pro Conclear",
         "description":
-          "Maquillaje con media cobertura. Esta es la indicada para esos eventos especiales, duración hasta por 10hrs y sin bloqueador para que no reflejes en las fotos.",
-        "price": 360,
+          "Corrector con cobertura media. Tiene un aplicador súper fácil para aplicarse, además de diferentes tonos para tus necesidades. Esta es la indicada para esos eventos especiales.",
+        "price": 83,
         "category": "Maquillaje",
-        "brand": "Elf",
-        "sku": "elf-velvet",
+        "brand": "L.A. Girl",
+        "sku": "corrector-la-girl",
         "createdAt": "2020-11-23T20:20:54.245Z",
         "updatedAt": "2020-11-23T20:20:54.245Z",
         "__v": 0,
         "image":
-          "https://www.delsol.com.mx/wp-content/uploads/2020/05/7502261714090.jpg"
+          "https://1makeups.com/wp-content/uploads/2019/10/L.A.-Girl-Pro-Conceal-3.jpg"
       },
       {
         "isActive": true,
