@@ -19,15 +19,15 @@
     },
     {
       "isActive": true,
-      "_id": "Pestanas-lilly",
-      "product_name": "lilly Lashes",
+      "_id": "Lashes-lilly",
+      "product_name": "Pestañas lilly",
       "modelo": "mink lilly",
       "description":
         "Tu makeup necesita ponerse más perrita y lo sabes, estas pestañas tienen el tamaño perfecto entre postisa y natural.",
       "price": 65,
       "category": "Ojos",
       "brand": "Lilly",
-      "sku": "Pestanas-lilly",
+      "sku": "Lashes-lilly",
       "createdAt": "2020-11-23T20:20:54.246Z",
       "updatedAt": "2020-11-23T20:20:54.246Z",
       "__v": 0,
@@ -37,7 +37,7 @@
     {
       "isActive": true,
       "_id": "Brocha-kill",
-      "product_name": "Brocha-kill",
+      "product_name": "Brochas kill",
       "description":
         "Este kit de 10 brochas son ideales para difuminar desde esa carita piciosa hasta tus ojitos pispiretos. Altamente recomendado, hermane.",
       "price": 214,
@@ -53,7 +53,7 @@
     {
         "isActive": true,
         "_id": "corrector-la-girl",
-        "product_name": "Pro conclear L.A. Girl",
+        "product_name": "Corrector Pro conclear L.A. Girl",
         "modelo": "Pro Conclear",
         "description":
           "Corrector con cobertura media. Tiene un aplicador súper fácil para aplicarse, además de diferentes tonos para tus necesidades. Esta es la indicada para esos eventos especiales.",
@@ -87,7 +87,7 @@
       {
         "isActive": true,
         "_id": "Set-Real-Tecniques",
-        "product_name": "Set-Real-Tecniques",
+        "product_name": "Brochas Set-Real-Tecniques",
         "description":
           "Este kit de 10 brochas son ideales para difuminar desde esa carita piciosa hasta tus ojitos pispiretos. Altamente recomendado, hermane.",
         "price": 214,
@@ -103,7 +103,7 @@
         {
           "isActive": false,
           "_id": "Sunset-palette-nat",
-          "product_name": "Sunset Palette",
+          "product_name": "Sombras Sunset Palette",
           "description":
             "Paleta altamente pigmentda con dos colores mate y 3 glitter hace un most para tu cosmetiquera.",
           "price": 214,
@@ -119,7 +119,7 @@
           {
             "isActive": false,
             "_id": "bloom-blush-glow-palette-nat",
-            "product_name": "Bloom blush & glow palette",
+            "product_name": "Blush - Bloom blush & glow palette",
             "description":
               "Esta paleta tiene 2 colores preciosos que puede quedarle a cualquier tono de piel que tengas, puedes combinarlos para un día de verano o invierno. y ni hablar del iluminador que trae, ¡está que te mueres!",
             "price": 1890,
@@ -135,7 +135,7 @@
             {
               "isActive": false,
               "_id": "19-brush-collection",
-              "product_name": "Brush Collection",
+              "product_name": "Brochas - Brush Collection",
               "description":
                 "Este kit de 19 brochas tiene de todo. Tiene 7 brochas para ojos, 9 brochas para tu bello rostro y 2 para darle forma a tu ceja. La calidad es buenísima, tiene cerdas sintéticas y naturales las cuales podrás guardar muy bien en su estuche cuando salgas de viaje. Ya sabes, antes muerta que sencilla.",
               "price": 1549,
@@ -151,7 +151,7 @@
               {
                 "isActive": true,
                 "_id": "the-healthy-foundation-pf",
-                "product_name": "The healthy foundation",
+                "product_name": "Base - The healthy foundation",
                 "description":
                   "Esta es la base que vas a amar de verdad. Tiene un SPF / FPS de 20 para proteger a tu carita de los rayos de sol. Esta base es idea para pieles secas que buscan un glow natural. Traemos de varios colores para que puedas escoger el que más te guste.",
                 "price": 169,
@@ -167,7 +167,7 @@
                 {
                   "isActive": true,
                   "_id": "maybelline-lash-sensational",
-                  "product_name": "The healthy foundation",
+                  "product_name": "Mascara de pestañas - The healthy foundation",
                   "description":
                     "Una gran máscara de pestañas que no te fallará en todo el día. su cepillo sintetico separa cada pestaña y su fórmula las alarga.",
                   "price": 169,
@@ -183,7 +183,7 @@
                   {
                     "isActive": true,
                     "_id": "maybelline-primer-baby-skin",
-                    "product_name": "Baby skin - primer",
+                    "product_name": "Primer - Baby skin",
                     "description":
                       "Este primer promete desaparecer a la vista tus poros al momento de maquillarte, es para pieles mixtas a normales y su textura es en gel dejando un acabado mate.",
                     "price": 299,
