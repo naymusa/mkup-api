@@ -20,6 +20,19 @@ const router = express.Router();
 router.get("/", (req, res) => res.send({ hola: "cambio" }));
 router.get("/productos", (req, res) => res.send(productos));
 
+router.get("/productos/:categoria", (req, res) => {
+  const categoriaProducto = req.params.categoria;
+  const filtro = productos.filter(
+    (producto) => producto.category === categoriaProducto
+  );
+  res.send(filtro);
+});
+router.get("/productos/detalle/:id", (req, res) => {
+  const idProducto = req.params.id;
+  const filtro = productos.find((producto) => producto._id === idProducto);
+  res.send(filtro);
+});
+
 // -- Inicia Ejemplo
 // app
 //    1. router
